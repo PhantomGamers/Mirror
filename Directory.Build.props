@@ -23,6 +23,7 @@
     <DefaultItemExcludes>$(DefaultItemExcludes);*.binlog</DefaultItemExcludes>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 <ItemGroup Label="Unity Engine">
      <Reference Include="$(UnityManagedDir)UnityEngine.dll" Private="false" SpecificVersion="true" />
